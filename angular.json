@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-tutorial-of-heroes"
+    }
+  },
+  "defaultProject": "angular-tutorial-of-heroes",
+  "cli": {
+    "analytics": false
+  }
 }
