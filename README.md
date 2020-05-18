@@ -34,3 +34,17 @@
 * 你知道了把组件声明到 AppModule 是很重要的，并认识到 CLI 会自动帮你声明它
 #### NgModule
 * 每个组件都必须声明在，且只能声明在 一个 NgModule 中
+
+## Step 3
+
+* @Component 元数据中指定的样式和样式表都是局限于该组件的。 heroes.component.css 中的样式只会作用于 HeroesComponent，既不会影响到组件外的 HTML，也不会影响到其它组件中的 HTML
+
+* 英雄指南应用在一个主从视图中显示了英雄列表。
+
+* 用户可以选择一个英雄，并查看该英雄的详情。
+
+* 你使用 *ngFor 显示了一个列表。
+
+* 你使用 *ngIf 来根据条件包含或排除了一段 HTML。
+
+* 你可以用 class 绑定来切换 CSS 的样式类。
