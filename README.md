@@ -19,21 +19,8 @@
 * 默认情况不可用，属于一个可选模块 `FormsModule` , 必须opt-in自行添加才可用
 
 ## Step 2
+
 * 你使用 CLI 创建了第二个组件 HeroesComponent。
 * 默认selectedHero 是undefined，所以需要用 *ngif指令，来设置该dom是否显示，否则会报错
-#### NgModule
+* `[class.some-css-class]="some-condition"` 根据条件添加或移除一个css类
 * 每个组件都必须声明在，且只能声明在 一个 NgModule 中
-
-## Step 3
-
-* @Component 元数据中指定的样式和样式表都是局限于该组件的。 heroes.component.css 中的样式只会作用于 HeroesComponent，既不会影响到组件外的 HTML，也不会影响到其它组件中的 HTML
-
-* 英雄指南应用在一个主从视图中显示了英雄列表。
-
-* 用户可以选择一个英雄，并查看该英雄的详情。
-
-* 你使用 *ngFor 显示了一个列表。
-
-* 你使用 *ngIf 来根据条件包含或排除了一段 HTML。
-
-* 你可以用 class 绑定来切换 CSS 的样式类。
