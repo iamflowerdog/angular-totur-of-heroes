@@ -24,3 +24,8 @@
 * 默认selectedHero 是undefined，所以需要用 *ngif指令，来设置该dom是否显示，否则会报错
 * `[class.some-css-class]="some-condition"` 根据条件添加或移除一个css类
 * 每个组件都必须声明在，且只能声明在 一个 NgModule 中
+
+## Setp 3
+
+* 用属性绑定语法 `[prop]="props"` 实现父组件为子组件传参数
+* 用@Input装饰器来让来接收父组件传过来的属性
