@@ -17,7 +17,11 @@ export class HeroesComponent implements OnInit {
   }
 
   getHeroes(): void {
-    this.heroes = this.heroService.getHeroes();
+    // 如果直接赋值给 this.heroes 会报异常 error TS2740 Type 'Observable<Hero[]>' is missing the following properties from type 'Hero[]': length, pop, push, concat, and 25 more.
+    this.heroService.getHeroes()
+      .subscribe(res => {
+        this.heroes = res;
+      })
   }
 
   selectHero(hero: Hero): void {
