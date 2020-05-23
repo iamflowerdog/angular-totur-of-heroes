@@ -20,18 +20,7 @@
 
 ## Step 2
 * 你使用 CLI 创建了第二个组件 HeroesComponent。
-
-* 你把 HeroesComponent 添加到了壳组件 AppComponent 中，以便显示它。
-
-* 你使用 UppercasePipe 来格式化英雄的名字。
-
-* 你用 ngModel 指令实现了双向数据绑定。
-
-* 你知道了 AppModule。
-
-* 你把 FormsModule 导入了 AppModule，以便 Angular 能识别并应用 ngModel 指令。
-
-* 你知道了把组件声明到 AppModule 是很重要的，并认识到 CLI 会自动帮你声明它
+* 默认selectedHero 是undefined，所以需要用 *ngif指令，来设置该dom是否显示，否则会报错
 #### NgModule
 * 每个组件都必须声明在，且只能声明在 一个 NgModule 中
 
