@@ -36,3 +36,6 @@
 * 引入Observable从rxjs中，用of函数来模拟，异步获取数据
 * hero.service 中引入 message.service 服务中服务
 * Angular只会绑定到组件的公共属性
+
+## Step 5
+* How is going.
